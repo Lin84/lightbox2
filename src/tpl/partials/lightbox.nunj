@@ -1,0 +1,59 @@
+{# <div id="wrapper"> #}
+<div id="lightbox">
+    <h1>...</h1>
+{#         <ul>
+            <li> #}
+                <a href="#" class="lightbox-item">
+                    <img src="../img/min/martin-janecky01.jpg">
+                </a>
+{#             </li>
+            <li> #}
+                <a href="#" class="lightbox-item">
+                    <img src="../img/min/martin-janecky02.jpg">
+                </a>
+{#             </li>
+            <li> #}
+                <a href="#" class="lightbox-item">
+                    <img src="../img/min/martin-janecky03.jpg">
+                </a>
+{#             </li>
+            <li> #}
+                <a href="#" class="lightbox-item">
+                    <img src="../img/min/martin-janecky04.jpg">
+                </a>
+{#             </li>
+            <li> #}
+                <a href="#" class="lightbox-item">
+                    <img src="../img/min/martin-janecky05.jpg">
+                </a>
+{#             </li>
+        </ul> #}
+</div>
+
+{# <div id="myModal" class="myModal">
+    <!-- The Close Button -->
+    <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+    <!-- Modal Content (The Image) -->
+    <div class="myModalImgContainer" id="myModalImgContainer">
+        <img class="modal-content" id="modalImg">
+        <span class="myModal__arrow myModal__arrow_next">></span>
+        <span class="myModal__arrow myModal__arrow_prev"><</span>
+    </div>
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
+</div> #}
+
+<div id="myModal" class="myModal">
+    <!-- The Close Button -->
+    <span class="close">&times;</span>
+
+    <!-- Modal Content (The Image) -->
+    <div class="myModalImgContainer" id="myModalImgContainer">
+        <img class="modal-content" id="modalImg">
+        <span id='nextImg' class="myModal__arrow myModal__arrow_next">></span>
+        <span id='prevImg' class="myModal__arrow myModal__arrow_prev"><</span>
+    </div>
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
+</div>
